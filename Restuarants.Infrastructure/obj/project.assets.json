@@ -1,48 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "Restaurants.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Restaurants.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Restaurants.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Restaurants.Application.dll": {}
-        }
-      },
-      "Restaurants.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Restaurants.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Restaurants.Domain.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "Restaurants.Application/1.0.0": {
-      "type": "project",
-      "path": "../Restaurants.Application/Restaurants.Application.csproj",
-      "msbuildProject": "../Restaurants.Application/Restaurants.Application.csproj"
-    },
-    "Restaurants.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Restaurants.Domain/Restaurants.Domain.csproj",
-      "msbuildProject": "../Restaurants.Domain/Restaurants.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "Restaurants.Application >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\amost\\.nuget\\packages\\": {},
@@ -75,11 +38,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Users\\amost\\Documents\\Projects\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj": {
-              "projectPath": "C:\\Users\\amost\\Documents\\Projects\\Restaurants\\Restaurants.Application\\Restaurants.Application.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
