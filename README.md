@@ -19,3 +19,7 @@ dotnet sln add ./Restaurants.Infrastructure
 
 dotnet add ./Restaurants.Infrastructure/Restaurants.Infrastructure.csproj reference ./Restaurants.Application/Restaurants.Application.csproj
 dotnet add ./Restaurants.API/Restaurants.API.csproj reference ./Restaurants.Infrastructure/Restaurants.Infrastructure.csproj
+
+
+
+PM> add-migration Init -Project Restuarants.Infrastructure -StartupProject Restaurants.API
